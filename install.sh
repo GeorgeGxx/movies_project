@@ -1,0 +1,2 @@
+#!/bin/bash
+apt update -y && apt install -y zip unzip curl wget python3 python3-pip python3.10-venv vim python-is-python3 git gh && curl -s "https://get.sdkman.io" | bash && source "$HOME/.sdkman/bin/sdkman-init.sh"
